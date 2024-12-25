@@ -34,12 +34,12 @@ const Img = ({ images }) => {
   }, [images.length, isPaused]);
 
   return (
-    <Flex flexDirection="column" position="relative" onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)}>
+    <Flex overflow={'hidden'} flexDirection="column" position="relative" onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)}>
       {/* Display the current image */}
       <Image 
         src={images[currentIndex]} 
         alt={`Slide ${currentIndex + 1}`} 
-        w="100vw"
+        overflow={'hidden'}
         objectFit="cover" 
         h={{base:"30vh",sm:"full"}}
       />
@@ -81,7 +81,7 @@ const images = [
 
 export default function ImageSlider() {
   return (
-    <Box w="100vw">
+    <Box w="100vw" overflow={'hidden'}>
       <Img images={images} />
     </Box>
   );

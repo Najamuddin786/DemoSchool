@@ -3,6 +3,7 @@ import { Box,Flex,Text } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import ImageSlider from "../components/Navbar/ImageSlider";
 import Notice from "../components/Navbar/Notice";
+import Footer from "../components/Footer";
 
 export default function Home(){
 
@@ -11,6 +12,7 @@ export default function Home(){
                 <ImageSlider/>
                 <Notice/>
                 <h1>Home</h1>
+                <Footer/>
                 
         </>
 }
