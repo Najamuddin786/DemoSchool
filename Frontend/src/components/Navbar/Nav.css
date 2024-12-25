@@ -1,0 +1,12 @@
+@keyframes blinkColor {
+    0% { background: green.400; } /* Initial color */
+    50% { background:  white; } /* Blinking color */
+    100% { background: rgb(38, 9, 46); } /* Back to initial color */
+  }
+  
+  .blinking-text {
+    animation: blinkColor 4s infinite;
+    font-size: 20px; /* Optional: Adjust font size */
+    font-weight: bold; /* Optional: Make the text bold */
+  }
+  
