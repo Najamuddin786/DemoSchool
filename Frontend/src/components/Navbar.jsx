@@ -17,7 +17,7 @@ export default function Navbar(){
       
 
         return <>
-                <Flex position={'sticky'} top='0px' py='2' _hover={{bg:"green.800"}} bg={"green.700"} color={'white'} px={{base:"3%",lg:"5%"}} alignItems={'center'} w='100vw' justifyContent={'space-between'}>
+                <Flex zIndex={'1000'} position={'sticky'} top='0px' py='2' _hover={{bg:"green.800"}} bg={"green.700"} color={'white'} px={{base:"3%",lg:"5%"}} alignItems={'center'} w='100vw' justifyContent={'space-between'}>
                         <HStack borderRadius={'md'} w='150px' bg='white'>
                             <Link>
                             <Image src='https://www.jaipuriaschoolpatna.in/wp-content/uploads/2024/01/Jaipuria-Patna-logo.png'/>

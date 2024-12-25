@@ -41,11 +41,11 @@ const Img = ({ images }) => {
         alt={`Slide ${currentIndex + 1}`} 
         w="100vw"
         objectFit="cover" 
-        h={{base:"35vh",sm:"full"}}
+        h={{base:"30vh",sm:"full"}}
       />
       
 
-      <Flex w='100vw' justifyContent={'center'} position={'absolute'} top='70%'>
+      <Flex w='100vw' justifyContent={'center'} position={'absolute'} top='80%'>
             <Text fontWeight={{base:"400",md:"600"}} borderRadius={'sm'} bg='green.300' p='1'>{schoolSlogans[currentIndex]}</Text>
       </Flex>
       {/* Navigation Buttons */}
