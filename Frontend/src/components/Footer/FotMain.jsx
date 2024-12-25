@@ -7,7 +7,7 @@ export default function FotMain(){
         return <>
                 <Box gap='5' flexDirection={'column'} display={'flex'} fontSize={'18px'} fontWeight={'500'} color='white' py='10' bg='green.900' px={{base:"2vw",md:'5vw'}}>
 
-                    <Flex gap='5' flexDirection={{base:'column',md:"row"}}>
+                    <Flex p='10px' gap='5' flexDirection={{base:'column',md:"row"}}>
                         <Flex gap='5' flexDirection={'column'}>
                             <Text>About DPS Patna</Text>
                             <Text fontWeight={400} fontSize={'16px'}>
@@ -32,7 +32,7 @@ export default function FotMain(){
                         </Flex>
                     </Flex>
                     <Box><Separator /></Box>
-                    <Flex gap='1' mt='5' flexDirection={{base:'column',md:"row"}}>
+                    <Flex p='10px' gap='1' mt='5' flexDirection={{base:'column',md:"row"}}>
                         <Text>© 2024-2025 DPS Patna. All rights reserved. Powered by </Text>
                         <Text color={'red'}>Takshila Educational Society</Text>
                     </Flex>
